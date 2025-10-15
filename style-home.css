@@ -27,11 +27,13 @@
       font-family: 'Poppins', sans-serif;
       line-height: 1.5rem;
       text-decoration: underline;
+      margin-top: 40px;
     }
     .hero {
       height: 100vh; /* hanya bagian awal yang full layar */
-      background: url('Gambar/kamvak.jpg') no-repeat center center/cover;
+      background: url('Gambar/sekolah.jpg') no-repeat center center/cover;
       position: relative;
+      width: 100%;
 }
 
 .halaman-2{
@@ -52,4 +54,9 @@ body{
   margin-top: 20px;
   background: linear-gradient(to right, #fff, #ccc, #2ab7d9, #005fa3);
   height: 400px;
+}
+
+/*Menghapus Spasi Bawaan*/
+* {
+  margin: 0;
 }
