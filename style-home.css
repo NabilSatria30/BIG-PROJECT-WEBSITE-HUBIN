@@ -1,0 +1,32 @@
+body {
+      /* Gambar background */
+      background-image: url('Gambar/kamvak.jpg');
+      /* Biar gambar menutupi seluruh layar */
+      background-size: cover;
+      /* Biar gambar tetap di tengah dan tidak berulang */
+      background-position: center;
+      background-repeat: no-repeat;
+      /* Pastikan body menutupi seluruh tinggi layar */
+      height: 100vh;
+      margin: 0;
+    }
+
+    nav {
+        background-color: aqua;
+        height: 40px;
+        width: 1260px;
+        text-align: right;
+        margin: auto;
+        display: block;
+        border-radius: 10px;
+    }
+
+    a {
+      padding: 10px 15px;
+      text-decoration: none;
+      color: #333;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      display: inline-block;
+      font-weight: bold;
+    }
