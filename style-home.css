@@ -36,12 +36,20 @@
 
 .halaman-2{
   background-color: lightgray;
-  height: 220px;
+  height: 150px;
   width: 1000px;
   text-align: center;
   margin-left: 135px;
+  margin-top: 20px;
+  padding: 70px 20px;
 }
 
 body{
   background-color: lightskyblue;
+}
+
+.footer{
+  margin-top: 20px;
+  background: linear-gradient(to right, #fff, #ccc, #2ab7d9, #005fa3);
+  height: 400px;
 }
