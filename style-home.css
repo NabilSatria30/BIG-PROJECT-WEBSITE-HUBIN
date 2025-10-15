@@ -1,20 +1,9 @@
-body {
-      /* Gambar background */
-      background-image: url('Gambar/kamvak.jpg');
-      /* Biar gambar menutupi seluruh layar */
-      background-size: cover;
-      /* Biar gambar tetap di tengah dan tidak berulang */
-      background-position: center;
-      background-repeat: no-repeat;
-      /* Pastikan body menutupi seluruh tinggi layar */
-      height: 100vh;
-      margin: 0;
-    }
 
     nav {
+      margin-top: 100px;
         background-color: aqua;
         height: 40px;
-        width: 1260px;
+        width: 1249px;
         text-align: right;
         margin: auto;
         display: block;
@@ -30,3 +19,29 @@ body {
       display: inline-block;
       font-weight: bold;
     }
+
+    .judul {
+      margin-left: 50px;
+      font-size: 20px;
+      font-style: italic;
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.5rem;
+      text-decoration: underline;
+    }
+    .hero {
+      height: 100vh; /* hanya bagian awal yang full layar */
+      background: url('Gambar/kamvak.jpg') no-repeat center center/cover;
+      position: relative;
+}
+
+.halaman-2{
+  background-color: lightgray;
+  height: 220px;
+  width: 1000px;
+  text-align: center;
+  margin-left: 135px;
+}
+
+body{
+  background-color: lightskyblue;
+}
