@@ -1,19 +1,18 @@
 
     nav {
       margin-top: 100px;
-        background-color: aqua;
+        background-color: darkblue;
         height: 40px;
-        width: 1249px;
+        width: 100%;
         text-align: right;
         margin: auto;
         display: block;
-        border-radius: 10px;
     }
 
     a {
       padding: 10px 15px;
       text-decoration: none;
-      color: #333;
+      color: white;
       font-family: Arial, sans-serif;
       font-size: 16px;
       display: inline-block;
@@ -59,4 +58,11 @@ body{
 /*Menghapus Spasi Bawaan*/
 * {
   margin: 0;
+}
+
+.card{
+  background-color: lightgrey;
+  height: 150px;
+  width: 130px;
+  padding: 60;
 }
