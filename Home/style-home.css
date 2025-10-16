@@ -1,68 +1,173 @@
+body{
+  background-color: lightskyblue;
+}
 
-    nav {
-      margin-top: 100px;
-        background-color: darkblue;
-        height: 40px;
-        width: 100%;
-        text-align: right;
-        margin: auto;
-        display: block;
-    }
+nav{
+  background-color: #005fa3;
+  display: flex;
+  justify-content: space-between; /*agar menu berada di kanan*/
+  gap: 2rem;
+  padding: 1rem 2rem;
+}
 
-    a {
-      padding: 10px 15px;
-      text-decoration: none;
-      color: white;
-      font-family: Arial, sans-serif;
-      font-size: 16px;
-      display: inline-block;
-      font-weight: bold;
-    }
+nav ul li a{
+  font-family: 'Segoe UI', sans-serif;
+  color: #191919;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style: none;  /*biar titik li ilang */
+  gap: 1rem; /*memberi jarak antar menunya */
+}
 
-    .judul {
+a:hover{
+    border-bottom: 1px solid black;
+    color: blue;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+}
+
+.item{
+  background-color: #005fa3;
+  height: 250px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px cornflowerblue;
+}
+
+.judul {
       margin-left: 50px;
       font-size: 20px;
       font-style: italic;
       font-family: 'Poppins', sans-serif;
       line-height: 1.5rem;
       text-decoration: underline;
-      margin-top: 40px;
-    }
-    .hero {
+      margin-top: 20px;
+}
+
+.background1{
       height: 100vh; /* hanya bagian awal yang full layar */
-      background: url('Gambar/sekolah.jpg') no-repeat center center/cover;
+      background: url('../Gambar/sekolah.jpg') no-repeat center center/cover;
       position: relative;
       width: 100%;
 }
 
+.icon-header{
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-end;
+   gap: 1rem;
+   margin-left: 70px;
+   list-style: none;
+   height: 30px;
+   width: 30px;
+}
+
 .halaman-2{
+  display: flex;
+  justify-content: center;
   background-color: lightgray;
   height: 150px;
   width: 1000px;
   text-align: center;
-  margin-left: 135px;
-  margin-top: 20px;
   padding: 70px 20px;
+  margin: 20px auto;
+  box-shadow: 10px 5px 5px grey;
 }
 
-body{
-  background-color: lightskyblue;
+/*Menghapus Spasi Bawaan html*/
+*,html {
+  margin: 0;
+  padding: 0;
 }
 
-.footer{
-  margin-top: 20px;
-  background: linear-gradient(to right, #fff, #ccc, #2ab7d9, #005fa3);
-  height: 400px;
+footer {
+  margin-top: 30px;
+  background: linear-gradient(to right, lightskyblue, blue);
+  color: white;
+  padding: 40px 0 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
-/*Menghapus Spasi Bawaan*/
-* {
+.footer-container {
+  display: flex;
+  justify-content: space-around;/*Memberi jarak seimbang antar kolom footer.*/
+  flex-wrap: wrap; /*Kalau layar kecil, kolom akan turun ke bawah otomatis (responsive).*/
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-content {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-content h3 {
+  margin-bottom: 15px; /*Jarak antara judul dan isi kolom.*/
+  font-size: 18px;
+  border-bottom: 2px solid #ffb400; /*Garis Bawah kuning di judul*/
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-content p,
+.footer-content li,
+.footer-content a {
+  font-size: 14px;
+  color: #ccc;
+  text-decoration: none; /*Menghapus Garis bawah teks*/
+  line-height: 1.8; /*Memberi jarak vertikal antar baris teks.*/
+}
+
+.footer-content a:hover {
+  color: #ffb400;
+  transition: 0.3s;
+}
+
+.footer-content ul {
+  list-style: none; /*ngehapus titik di depan list li*/
+  padding: 0; /*ngehapus jarak bawaan dari ul*/
+}
+
+.footer-content li {
+  margin-bottom: 8px; /*Jarak antar item list biar tidak rapat*/
+}
+
+/* Bagian icon sosial media */
+.footer-content i {
+  font-size: 20px;
+  margin-right: 10px; /*Jarak antar ikon*/
+  color: #ccc;
+}
+
+.footer-content i:hover {
+  color: #ffb400;
+  transition: 0.3s;
+}
+
+/* Bar bawah */
+.copyright {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #444; /*Garis pembatas antara isi footer dan bagian bawah.*/
+  font-size: 13px;
+  color: #aaa;
+}
+
+.copyright p {
   margin: 0;
 }
 
-.card{
-  background-color: lightgrey;
-  height: 150px;
-  width: 130px;
-  padding: 60;
-}
+
+
