@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jurnal SIswa</title>
+    <link rel="stylesheet" href="style-jurnal.css">
+</head>
+<body>
+       <div class="form-container">
+    <div class="header-form">
+      <img src="../Gambar/journal.png" style="height: 25px; width: 25px;">
+      <h2>Jurnal Siswa</h2><br>
+    </div>
+  <form action="simpan_biodata.php" method="post">
+    <div class="form-item">
+      <label>Nama:</label>
+      <input type="text" name="nama">
+    </div>
+
+    <div class="form-item">
+      <label>Jurusan:</label>
+      <select name="jurusan" required>
+        <option value="">-- Pilih Jurusan --</option>
+        <option value="Rekayasa Perangkat Lunak">Rekayasa Perangkat Lunak</option>
+        <option value="Sistem Jaringan Dan Aplikasi">Sistem Jaringan Dan Aplikasi</option>
+        <option value="Desain Komunikasi Visual">Desain Komunikasi Visual</option>
+      </select>
+    </div>
+
+    <div class="form-item">
+      <label>Tanggal:</label>
+      <input type="date" name="tanggal">
+    </div>
+
+    <div class="form-item">
+      <label>Kegiatan:</label>
+      <textarea name="kegiatan"></textarea>
+    </div>
+
+    <div class="form-item">
+      <label>Pembelajaran Yang Didapatkan:</label>
+      <textarea name="pemberlajaran"></textarea>
+    </div>
+
+     <div class="form-item">
+      <label>Kendala:</label>
+      <textarea name="kendala"></textarea>
+    </div>
+
+    <div class="btn">
+    <button type="submit"><p>Kirim</p></button>
+    <button type="submit"><p>Simpan</p></button>
+    </div>
+  </form>
+</div>
+</body>
+</html>

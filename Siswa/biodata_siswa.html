@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <link rel="stylesheet" href="style-biodata.css">
+</head>
+<body>
+   <div class="form-container">
+    <div class="header-form">
+      <img src="../Gambar/profile.png" style="height: 20px; width: 20px;">
+      <h2>Form Biodata Siswa</h2><br>
+    </div>
+  <form action="simpan_biodata.php" method="post">
+    <div class="form-item">
+      <label>Nama:</label>
+      <input type="text" name="nama">
+    </div>
+
+    <div class="form-item">
+      <label>Jurusan:</label>
+      <select name="jurusan" required>
+        <option value="">-- Pilih Jurusan --</option>
+        <option value="Rekayasa Perangkat Lunak">Rekayasa Perangkat Lunak</option>
+        <option value="Sistem Jaringan Dan Aplikasi">Sistem Jaringan Dan Aplikasi</option>
+        <option value="Desain Komunikasi Visual">Desain Komunikasi Visual</option>
+      </select>
+    </div>
+
+    <div class="form-item">
+      <label>Alamat:</label>
+      <textarea name="alamat"></textarea>
+    </div>
+
+    <div class="form-item">
+      <label>Nomer Telepon:</label>
+      <input type="number" name="no_telp">
+    </div>
+
+     <div class="form-item">
+      <label>Email:</label>
+      <input type="text" name="email">
+    </div>
+
+     <div class="form-item">
+      <label>Bulan Mulai Pkl:</label>
+      <input type="text" name="bulan_mulai_pkl">
+    </div>
+
+     <div class="form-item">
+      <label>Perusahaan Tempat Pkl:</label>
+      <input type="text" name="perusahaan_pkl">
+    </div>
+
+    <button class="btn-simpan" type="submit"><p>Simpan</p></button>
+  </form>
+</div>
+
+</body>
+</html>

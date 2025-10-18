@@ -1,0 +1,60 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #4cc9e3 0%, #ffffff 100%);
+}
+
+.form-container {
+  width: 420px;
+  margin: auto;
+  background: #fff;
+  padding: 20px 50px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 5px 5px lightskyblue;
+  margin-bottom: 15px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.form-item {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block; /*elemen label tampil di baris baru sendiri */
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.header-form {
+  display: flex;                /* Biar sejajar horizontal */
+  justify-content: center;
+  align-items: center;          /* Sejajarkan gambar & teks secara vertikal */
+  gap: 10px;                    /* Jarak antara gambar dan teks */
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-simpan{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background-color: #3399ff;
+}
+
+.btn-simpan:hover{
+    color: pink;
+}
