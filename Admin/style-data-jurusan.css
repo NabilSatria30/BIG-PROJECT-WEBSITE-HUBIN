@@ -1,0 +1,64 @@
+*,html,body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #4cc9e3 0%, #ffffff 100%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* susun ke bawah */
+  gap: 20px;              /* jarak antar baris */
+  margin-top: 50px;
+}
+
+/* setiap baris */
+.row {
+  display: flex;
+  justify-content: center; /* sejajarkan card di tengah */
+  gap: 30px;               /* jarak antar card */
+}
+
+/* card-nya */
+.item {
+  background-color: #c8efff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 350px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* tombol */
+button {
+  background-color: #0047ab;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #003b91;
+}
+
+div h2{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    margin-top: 50px;
+    margin-bottom: 110px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}

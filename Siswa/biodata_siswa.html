@@ -15,7 +15,7 @@
   <form action="simpan_biodata.php" method="post">
     <div class="form-item">
       <label>Nama:</label>
-      <input type="text" name="nama">
+      <input type="text" name="nama" placeholder="Masukan nama lengkap" required>
     </div>
 
     <div class="form-item">
@@ -30,27 +30,27 @@
 
     <div class="form-item">
       <label>Alamat:</label>
-      <textarea name="alamat"></textarea>
+      <textarea name="alamat" placeholder="Masukan Alamat" required></textarea>
     </div>
 
     <div class="form-item">
       <label>Nomer Telepon:</label>
-      <input type="number" name="no_telp">
+      <input type="number" name="no_telp" placeholder="Contoh:08612125326" required>
     </div>
 
      <div class="form-item">
       <label>Email:</label>
-      <input type="text" name="email">
+      <input type="text" name="email" required placeholder="Masukan Email">
     </div>
 
      <div class="form-item">
-      <label>Bulan Mulai Pkl:</label>
-      <input type="text" name="bulan_mulai_pkl">
+      <label>Tanggal Mulai Pkl:</label>
+      <input type="date" name="tgl_mulai_pkl" required>
     </div>
 
      <div class="form-item">
       <label>Perusahaan Tempat Pkl:</label>
-      <input type="text" name="perusahaan_pkl">
+      <input type="text" name="perusahaan_pkl" placeholder="Masukan Perusahaan Tempat Pkl">
     </div>
 
     <button class="btn-simpan" type="submit"><p>Simpan</p></button>

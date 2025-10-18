@@ -27,10 +27,20 @@ body{
 label {
   display: block; /*elemen label tampil di baris baru sendiri */
   margin-bottom: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
 }
 
-input, textarea {
+input, textarea{
   width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+select{
+  width: 104%;
   padding: 8px;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -40,7 +50,7 @@ input, textarea {
   display: flex;                /* Biar sejajar horizontal */
   justify-content: center;
   align-items: center;          /* Sejajarkan gambar & teks secara vertikal */
-  gap: 10px;                    /* Jarak antara gambar dan teks */
+  gap: 5px;                    /* Jarak antara gambar dan teks */
   margin-bottom: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -53,6 +63,7 @@ input, textarea {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     background-color: #3399ff;
+    border-radius: 5px;
 }
 
 .btn-simpan:hover{
