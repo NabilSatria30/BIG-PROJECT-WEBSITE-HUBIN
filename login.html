@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Login </title>
+    <style>
+        body{
+            /* background-color: #070819; */
+            background: linear-gradient(to right, rgb(56, 58, 65), rgb(46, 134, 168), rgb(11, 68, 133) );
+            height: 100vh;
+            width: 100%;
+            
+            
+        }
+
+        *,html, body{
+            padding: 0%;
+            margin: 0%;
+        }
+
+        h1{
+            text-align: center;
+            font-weight: 300;
+            color: rgb(255, 255, 255);
+        }
+
+        .main_container{
+            /* background: linear-gradient(to right, rgba(10, 48, 63, 0.473), rgb(192, 189, 189), rgb(94, 96, 100)); */
+             background: linear-gradient( 135deg, rgba(255, 255, 255, 0.4),  rgba(255, 255, 255, 0.1));
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 20%;
+            height: 30ch;
+            padding: 3%;
+            border-radius: 2ch;
+            margin-left: 37%;
+            margin-top: 5%;
+            box-shadow: 1px 2px 2px 2px black;
+            backdrop-filter: blur(8px); /*efek blur */
+
+        }
+
+        .package{
+             display: flex;
+             gap: 1.5%;
+             
+        }
+
+        .login_text{
+            font-size: 4ch;
+            font-weight: 400;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        input{
+            height: 1.5ch;
+            border-radius: 1ch;
+            width: 100%;
+            padding: 10px 14px;
+            border: 1.5px solid #ccc;
+            border-radius: 8px;
+            font-size: 15px;
+            transition: all 0.3s ease;
+        }
+
+
+        input:focus {
+        border-color: #4f7cff;
+        box-shadow: 0 0 5px rgba(79, 124, 255, 0.3);
+        outline: none;
+        }
+
+        label{
+              margin-top: 2%;
+        }
+
+        .button_login{
+            width: 100%;
+             height: 5ch; 
+             border-radius: 1ch; 
+             background-color: rgb(6, 37, 66); 
+             color: aliceblue;
+        }
+        
+        .head_login{
+            margin-top: 2%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2%;
+        }
+
+        .background_login{
+            background: url("Gambar/BACKGROUND_LOGIN\ \(1\).jpg") no-repeat;
+              margin-top: 0%;
+            display: flow-root;
+           background-size: cover;
+           width: 100%;
+           height: 100vh;
+          
+
+        }
+
+
+           /* Small phones -> >= 360px */
+        @media (max-width: 360px) { 
+            .main_container{
+                 width: 40%;
+            }
+        }
+
+        /* Tablet */
+        @media (max-width: 768px){
+            .main_container{
+                width: 50%;
+                padding: 7%;
+                margin-left: 20%;
+            }
+
+            .head_login{
+                margin-top: 0%;
+            }
+
+            .background_login{
+                width: 100%;
+            }
+        }
+
+     
+       
+
+
+    </style>
+</head>
+
+<body>
+    
+     <div class="background_login">
+
+        <div class="head_login">
+        <img src="Gambar/logosmkn.png" alt="" height="70px" width="70px">
+    </div>
+   
+      <form>
+        <div class="main_container">
+            <div class="package">
+               <div class="login_text">Login</div>
+            </div>
+
+
+            <div class="package">
+             <label for="username">Username </label> <br>
+            <input type="text" name="username"> 
+            </div>
+           
+              <div class="package">
+             <label for="username">Password </label> <br>
+            <input type="password" name="username" > 
+            </div>
+           
+            <button class="button_login">Login</button>
+
+        </div>
+       
+    </form>
+
+    <a href="home.html">
+         <button type="submit">Home</button>
+    </a>
+   
+        
+     </div>
+   
+    
+</body>
+</html>
