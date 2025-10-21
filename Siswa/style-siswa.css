@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #7dd6e7, #b9ebf1);
+  min-height: 100vh;
+}
+
+.judul {
+  text-align: center;
+  margin-top: 30px;
+  color: #000;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: #f4f9fa;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.header-name {
+  margin-bottom: 20px;
+}
+
+.header-name h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header-name p {
+  font-size: 13px;
+  color: #333;
+}
+
+.biodata-box {
+  background-color: #e4f9fc;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.biodata-box h3 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+
+}
+
+td {
+  padding: 6px 4px;
+  vertical-align: top;
+}
+
+.label {
+  width: 40%;
+  font-weight: bold;
+  color: #333;
+
+}
+
+.isi {
+  color: #000;
+  padding-left: 70px;
+}
