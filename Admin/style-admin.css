@@ -56,13 +56,33 @@ body{
 }
 
 .item:hover{
-    color: rgb(61, 100, 190);
-    transition: 0.3s;
+    transform: scale(1.09);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    color: blue;
 }
 
-.btn-logout{
+.container-btn{
     display: flex;
     justify-content: flex-end;
     margin-top: 20px;
     margin-right: 10px;
+}
+
+.container-btn button {
+  display: flex;
+  align-items: center; /* sejajarkan gambar & teks */
+  justify-content: center;
+  gap: 8px; /* jarak antara gambar dan teks */
+}
+
+button{
+    width: 110px; 
+    height: 35px; 
+    background-color: red; 
+    border-radius: 5px;
+}
+
+button:hover{
+     cursor: pointer;
+     transform: scale(1.09);
 }

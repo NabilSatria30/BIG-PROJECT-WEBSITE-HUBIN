@@ -56,8 +56,9 @@ body{
 }
 
 .item:hover{
-    color: rgb(61, 100, 190);
-    transition: 0.3s;
+    transform: scale(1.09);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    color: blue;
 }
 
 .btn-logout{
