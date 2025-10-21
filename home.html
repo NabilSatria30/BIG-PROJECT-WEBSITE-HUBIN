@@ -6,11 +6,14 @@
     <link rel="stylesheet" href="style-home.css"></link>
     <title>Home Hubin</title>
     <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+     <!-- Aos Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
      <section class="background1" alt="gambar background halaman slide 1">
        
-        <nav>
+        <nav data-aos="fade-right">
           <div>
             <img src="../Gambar/logosmkn.png" style="width: 33px; height: 30px;">    
           </div>
@@ -27,7 +30,7 @@
         </ul>
       </nav>
 
-    <div class="judul">
+    <div class="judul" data-aos="fade-right">
       <h1>Website Resmi Hubungan Industri</h1>
       <br>
       <h1>RUMPUN IT MILLENIUM</h1>
@@ -36,7 +39,7 @@
      </section>
      
      <section>
-        <div class="halaman-2">
+        <div class="halaman-2" data-aos="fade-down">
             <h1 style="font-size: 23px; font-family: 'Poppins', sans-serif;">Hubungan Industri adalah kerja sama antara dunia pendidikan (sekolah 
                 dengan dunia kerja (perusahaan/industri). Tujuannya untuk
                 menyelaraskan ilmu yang dipelajari siswa dengan kebutuhan nyata di
@@ -45,7 +48,7 @@
         </div>
      </section>
 
-     <section style="margin-top: 30px;">
+     <section style="margin-top: 30px;" data-aos="fade-right">
          <div class="container">
              <div class="item"><img src="../Gambar/card1.jpg"></div>
              <div class="item"><img src="../Gambar/card2.jpg"></div>
@@ -55,7 +58,7 @@
 
    <section>
     <footer>
-           <div class="footer-container">
+           <div class="footer-container" data-aos="fade-down">
                <div class="footer-content">
                   <h3>Kontak Kami</h3>
                   <p>Email:hubinsmkn1cib@gmail.com</p>
@@ -84,5 +87,16 @@
            </div>
     </footer>
    </section>
+
+   <!-- bagian animasi tinggal dipanggil ibaratnya framework -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+    once:true,
+    duration:1000,
+  });
+</script>
+
 </body>
 </html>
