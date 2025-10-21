@@ -12,7 +12,7 @@ body {
 
 .judul {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 15px;
   color: #000;
 }
 
@@ -76,4 +76,36 @@ td {
 .isi {
   color: #000;
   padding-left: 70px;
+}
+
+.container-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #e4f9fc;
+  width: fit-content;     /* ikut konten (button) */
+  margin-left: auto;      /* agar tetap center */
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 7px;
+
+}
+
+
+button{
+  height: 50px; 
+  width: 400px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+button:hover{
+    transform: scale(1.05);
+    background-color: cyan;
+}
+
+button img{
+  height: 20px;
+  width: 20px;
 }

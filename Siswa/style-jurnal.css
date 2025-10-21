@@ -14,7 +14,7 @@ body{
   background: #fff;
   padding: 20px 50px;
   border-radius: 10px;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 50px;
   background: rgba(83, 147, 158, 0.6);
   box-shadow: 5px 5px lightblue;
@@ -70,22 +70,25 @@ textarea{
     gap: 2rem;
 }
 
-.item-kirim{
+.btn-kirim{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     background-color: #3399ff;
     width: 40%;
+    height: 30px;
     border-radius: 5px;
 }
 
-.item-unduh{
+.btn-unduh{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     background-color: darkgrey;
     width: 40%;
+    height: 30px;
     border-radius: 5px;
 }
 
-.item-kirim:hover, .item-unduh:hover{
-    color: red;
+.btn-kirim:hover, .btn-unduh:hover{
+    background-color: red;
+    transform: scale(1.05);
 }

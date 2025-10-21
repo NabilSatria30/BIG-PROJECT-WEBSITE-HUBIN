@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="style-jurnal.css">
 </head>
 <body>
+  <a href="dashboard_siswa.html">
+  <img src="../Gambar/back-button.png" alt="tombol kembali" style="height: 36px; width: 36px; margin-left: 370px; margin-top: 20px;">
+  </a>
+
        <div class="form-container">
     <div class="header-form">
       <img src="../Gambar/journal.png" style="height: 25px; width: 25px;">
@@ -49,10 +53,17 @@
     </div>
  
     <div class="btn">
-    <button class="item-kirim" type="submit"><p>Kirim</p></button>
-    <button class="item-unduh" type="submit"><p>Unduh</p></button>
+    <button onclick="pindah()" class="btn-kirim" type="submit"><p>Kirim</p></button>
+    <button class="btn-unduh" type="submit"><p>Unduh</p></button>
     </div>
   </form>
+
+  <script>
+       function pindah(){
+        alert("Jurnal berhasil dikirim");
+        window.location.href='dashboard_siswa.html'
+       }
+  </script>
 </div>
 </body>
 </html>

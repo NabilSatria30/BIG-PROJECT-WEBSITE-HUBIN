@@ -37,58 +37,6 @@ a:hover{
     margin: 0;
 }
 
-.header{
-    text-align: center;
-    margin-top: 35px;
-    font-size: 25px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.head{
-  background-color: gainsboro;
-  margin: 30px 30px;
-  width: 210px;
-  padding: 12px 30px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 7px;
-  border-radius: 5px;
-  margin-top: 80px;
-}
-
-.container{
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    height: 100px;
-    flex-wrap: wrap; /*auto fleksibel card nya otomatis kebawah/responsive */
-}
-
-.item{
-    background-color: white;
-    height: 150px;
-    width: 220px;
-    text-align: center;
-    padding-top: 13px;
-}
-
-.item img{
-    height: 130px;
-    width: 150px;
-}
-
-.keterangan{
-      display: flex;
-      justify-content: center;
-      margin-bottom: 100px;
-}
-
-.keterangan p{
-    background-color: lightblue;
-    font-size: 15px;
-    padding: 20px 30px;
-    font-family: 'Poppins', sans-serif;
-}
-
 footer {
   margin-top: 30px;
   background: linear-gradient(to right, rgb(55, 124, 167), rgb(26, 37, 194));
