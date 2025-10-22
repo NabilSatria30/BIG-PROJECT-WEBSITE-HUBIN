@@ -16,7 +16,7 @@ nav{
 
 nav ul li a{
   font-family: 'Segoe UI', sans-serif;
-  color: #191919;
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
@@ -112,4 +112,16 @@ footer {
 
 .copyright p {
   margin: 0;
+}
+
+.btn-login{
+        background-color: rgb(6, 124, 145);
+        color: rgb(16, 223, 223);
+        border: none;
+         padding: 7px;
+         border-radius: 2ch;
+         width: 10ch;
+         cursor: pointer;
+         font-weight: bolder;
+         color: white;
 }
