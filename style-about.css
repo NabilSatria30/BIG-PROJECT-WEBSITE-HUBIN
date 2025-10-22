@@ -115,7 +115,7 @@ footer {
 }
 
 .btn-login{
-        background-color: rgb(6, 124, 145);
+        background-color: rgb(36, 94, 181);
         color: rgb(16, 223, 223);
         border: none;
          padding: 7px;
@@ -124,4 +124,13 @@ footer {
          cursor: pointer;
          font-weight: bolder;
          color: white;
+}
+
+.container-gmbr{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: bolder;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

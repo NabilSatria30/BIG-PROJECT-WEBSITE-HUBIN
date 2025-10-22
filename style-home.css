@@ -37,6 +37,15 @@ a:hover{
     color: blue;
 }
 
+.container-gmbr{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: bolder;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .judul {
       display:flex;
       justify-content: center;
