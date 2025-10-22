@@ -151,15 +151,15 @@
 
             <div class="package">
              <label for="username">Username </label> <br>
-            <input type="text" name="username"> 
+            <input type="text" id="username" name="username"> 
             </div>
            
               <div class="package">
              <label for="username">Password </label> <br>
-            <input type="password" name="username" > 
+            <input type="password" id="password" name="username" > 
             </div>
            
-            <button class="button_login">Login</button>
+            <button type="button" class="button_login" onclick="login()">Login</button>
 
         </div>
        
@@ -168,10 +168,25 @@
     <a href="home.html">
          <button type="submit">Home</button>
     </a>
-   
-        
      </div>
    
+     <script>
+    function login() {
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+
+      // Data login simulasi
+      if (username === "admin" && password === "123") {
+        window.location.href = "../Admin/dashboard_admin.html";
+      } else if (username === "siswa" && password === "123") {
+        window.location.href = "../Siswa/dashboard_siswa.html";
+      } else if (username === "guru" && password === "123") {
+        window.location.href = "../GuruJurusan/dashboard_gurujursan.html";
+      } else {
+        alert("Username atau password salah!");
+      }
+    }
+    </script>
     
 </body>
 </html>
