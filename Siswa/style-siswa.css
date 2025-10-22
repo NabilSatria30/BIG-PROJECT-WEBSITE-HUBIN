@@ -92,7 +92,7 @@ td {
 }
 
 
-button{
+.container-btn button{
   height: 50px; 
   width: 400px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -100,12 +100,39 @@ button{
   border-radius: 7px;
 }
 
-button:hover{
+.container-btn button:hover{
     transform: scale(1.05);
     background-color: cyan;
 }
 
-button img{
+.container-btn button img{
   height: 20px;
   width: 20px;
+}
+
+
+.container-btn-logout{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.container-btn-logout button {
+  display: flex;
+  align-items: center; /* sejajarkan gambar & teks */
+  justify-content: center;
+  gap: 8px; /* jarak antara gambar dan teks */
+}
+
+.container-btn-logout button{
+    width: 110px; 
+    height: 35px; 
+    background-color: red; 
+    border-radius: 5px;
+}
+
+.container-btn-logout button:hover{
+     cursor: pointer;
+     transform: scale(1.09);
 }
