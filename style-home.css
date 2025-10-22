@@ -52,13 +52,13 @@ a:hover{
       align-items: center;
       margin-left: auto;
       margin-right: auto;
-      font-size: 25px;
+      font-size: 30px;
       font-weight: bolder;
       font-family: 'Poppins', sans-serif;
       margin-top: 20px;
       background: linear-gradient(to right, #518bcd 0%, #007bff 50%, #4d74ae 100%);
       height: 45px;
-      width: 700px;
+      width: 850px;
       border-radius: 20px;
       color: white;
 }
@@ -206,8 +206,8 @@ footer {
 }
 
 .btn-login{
-        background-color: rgb(6, 124, 145);
-        color: rgb(16, 223, 223);
+        background-color: rgb(173, 178, 179);
+        color: rgb(35, 87, 184);
         border: none;
          padding: 7px;
          border-radius: 2ch;
