@@ -30,6 +30,8 @@ nav ul{
 a:hover{
     border-bottom: 1px solid black;
     color: blue;
+  text-decoration: none;
+
 }
 
 *,html,body{
@@ -134,3 +136,4 @@ footer {
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+

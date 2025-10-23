@@ -206,8 +206,7 @@ footer {
 }
 
 .btn-login{
-        background-color: rgb(6, 124, 145);
-        color: rgb(16, 223, 223);
+        background-color: rgb(129, 125, 125);
         border: none;
          padding: 7px;
          border-radius: 2ch;
@@ -215,4 +214,5 @@ footer {
          cursor: pointer;
          font-weight: bolder;
          color: white;
+       
 }
