@@ -4,12 +4,13 @@ body{
 
 /* background utama home */
 .background1{
-     
-      height: 100vh; /* hanya bagian awal yang full layar */
+     display: flex;
+      height: 768px; /* hanya bagian awal yang full layar */
       position: relative;
       width: 100%;
       /* background:   linear-gradient(to bottom right, rgba(0,0,0,0.6), rgba(0, 128, 255, 0.4)), url("Gambar/HEADER_HOME.png") no-repeat center center/cover; */
-      background: url(Gambar/HEADER_HOME.png);
+      background: url(Gambar/HEADER_HOME\ \(1\).png);
+      background-size: cover;
 }
 
 /* navbar */
