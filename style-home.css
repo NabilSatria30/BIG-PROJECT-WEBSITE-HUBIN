@@ -4,10 +4,12 @@ body{
 
 /* background utama home */
 .background1{
+     
       height: 100vh; /* hanya bagian awal yang full layar */
       position: relative;
       width: 100%;
-      background:   linear-gradient(to bottom right, rgba(0,0,0,0.6), rgba(0, 128, 255, 0.4)), url("Gambar/sekolah.jpg") no-repeat center center/cover;
+      /* background:   linear-gradient(to bottom right, rgba(0,0,0,0.6), rgba(0, 128, 255, 0.4)), url("Gambar/HEADER_HOME.png") no-repeat center center/cover; */
+      background: url(Gambar/HEADER_HOME.png);
 }
 
 /* navbar */
@@ -52,13 +54,13 @@ a:hover{
       align-items: center;
       margin-left: auto;
       margin-right: auto;
-      font-size: 25px;
+      font-size: 30px;
       font-weight: bolder;
       font-family: 'Poppins', sans-serif;
       margin-top: 20px;
       background: linear-gradient(to right, #518bcd 0%, #007bff 50%, #4d74ae 100%);
       height: 45px;
-      width: 700px;
+      width: 850px;
       border-radius: 20px;
       color: white;
 }
